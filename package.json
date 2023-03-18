@@ -1,0 +1,29 @@
+{
+    "name": "proxyrack.js",
+    "version": "1.0.5",
+    "description": "A simple Node.js wrapper for the ProxyRack API.",
+    "main": "src/client.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yalu64/proxyrack.js.git"
+    },
+    "exports": {
+        "require": "./src/client.js",
+        "import": "./esm/wrapper.js"
+    },
+    "dependencies": {
+        "axios": "^0.27.2"
+    },
+    "author": "Yalu64",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Yalu64/proxyrack.js/issues"
+    },
+    "homepage": "https://yalu.dev/projects/earnapp-js",
+    "keywords": [
+        "API"
+    ],
+    "devDependencies": {
+        "jsdoc-to-markdown": "^7.1.1"
+    }
+}
