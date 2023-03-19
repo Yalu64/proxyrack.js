@@ -1,6 +1,6 @@
 {
     "name": "proxyrack.js",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "A simple Node.js wrapper for the ProxyRack API.",
     "main": "src/client.js",
     "repository": {
@@ -21,7 +21,10 @@
     },
     "homepage": "https://yalu.dev/projects/earnapp-js",
     "keywords": [
-        "API"
+        "API",
+        "ProxyRack",
+        "Peer",
+        "Proxyrack peer"
     ],
     "devDependencies": {
         "jsdoc-to-markdown": "^7.1.1"
