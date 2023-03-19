@@ -3,7 +3,9 @@
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 ProxyRack.js allows you to easily interact with the ProxyRack peer api.
+
 
 
 
@@ -18,6 +20,7 @@ ProxyRack.js allows you to easily interact with the ProxyRack peer api.
 npm install proxyrack.js
 ```
     
+
 
 ## Documentation
 
@@ -67,6 +70,7 @@ Remove a device from your proxyrack account.
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `id` | `string` | **Required**. The ID of the device you want to remove. |
+
 
 
 
@@ -135,14 +139,17 @@ async function removeDevice() {
 ```
 
 
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
+
 ## Author
 
 - [@yalu64](https://www.github.com/yalu64)
+
 
 
 ## Support
